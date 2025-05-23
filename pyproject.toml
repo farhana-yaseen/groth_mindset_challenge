@@ -1,8 +1,18 @@
-[project]
+
+[tool.poetry]
 name = "groth-mindset-challenge"
 version = "0.1.0"
 description = "Add your description here"
+authors = ["Your Name <you@example.com>"]
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = []
 package-mode = false
+# You can include this if using a specific Python version
+# python = ">=3.9,<3.12"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
