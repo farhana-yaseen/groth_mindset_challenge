@@ -5,11 +5,12 @@ description = "Add your description here"
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 package-mode = false
-# You can include this if using a specific Python version
-# python = ">=3.9,<3.12"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+pandas = "*"
+openpyxl = "*"
+streamlit = "*"
 
 [build-system]
 requires = ["poetry-core"]
